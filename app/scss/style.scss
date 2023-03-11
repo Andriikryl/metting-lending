@@ -95,6 +95,58 @@
     border: none;
 }
 
+// Hero
+
+.hero{
+    padding-block-end: 120px;
+}
+
+.hero__box{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hero__text{
+    max-width: 500px;
+    padding-block-start: 100px;
+    .hero__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+        color: #18216D;
+        padding-block-end: 16px;
+    }
+    .hero__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #18216D;
+        padding-block-end: 34px;
+    }
+    .hero__btn{
+        padding: 23px 37px;
+        background: #00ECD0;
+        border-radius: 6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #18216D;
+        border: none;
+    }
+}
+
+.hero__img{
+ max-width: 800px;
+ margin-left: -150px;
+}
+
 
 
 
